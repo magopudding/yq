@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.yq</groupId>
+  <artifactId>yq</artifactId>
+  <packaging>pom</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <modules>
+    <module>yq-algorithm</module>
+    <module>yq-thread</module>
+    <module>yq-jvm</module>
+    <module>yq-agaent</module>
+    <module>yq-spring</module>
+    <module>yq-zookeeper</module>
+    <module>yq-kafka</module>
+    <module>yq-jdk</module>
+    <module>yq-tomcat</module>
+    <module>yq-es</module>
+    <module>yq-zgc</module>
+    <module>yq-concurrency</module>
+    <module>yq-designpattern</module>
+  </modules>
+
+
+</project>
