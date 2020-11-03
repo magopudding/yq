@@ -3,10 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="3a03bac5-b787-4e8d-a77c-609542f2a0d8" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/yq-algorithm/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yq-algorithm/src/main/java/Substring.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/yq-concurrency/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/yq-designpattern/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/yq-es/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/yq-jdk/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yq-jdk/src/main/java/yq/jdk9/java/lang/JDK9.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/yq-jvm/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/yq-kafka/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/yq-spring/pom.xml" afterDir="false" />
@@ -14,7 +16,6 @@
       <change afterPath="$PROJECT_DIR$/yq-tomcat/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/yq-zgc/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/yq-zookeeper/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yq-algorithm/src/main/java/TwoNoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/yq-algorithm/src/main/java/TwoNoSum.java" afterDir="false" />
     </list>
@@ -45,11 +46,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/yq-algorithm/src/main/java/TwoNoSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+            <state>
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/yq-algorithm/src/main/java/Substring.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -75,6 +87,9 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/yq-algorithm/src/main/java/TwoNumberSum.java" />
         <option value="$PROJECT_DIR$/yq-algorithm/src/main/java/TwoNoSum.java" />
+        <option value="$PROJECT_DIR$/yq-jdk/src/main/java/yq/jdk9/java/lang/jdk9.java" />
+        <option value="$PROJECT_DIR$/yq-jdk/src/main/java/yq/jdk9/java/lang/JDK9.java" />
+        <option value="$PROJECT_DIR$/yq-algorithm/src/main/java/Substring.java" />
       </list>
     </option>
   </component>
@@ -101,7 +116,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
@@ -146,6 +161,24 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="yq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yq" type="462c0819:PsiDirectoryNode" />
+              <item name="yq-jdk" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yq" type="462c0819:PsiDirectoryNode" />
+              <item name="yq-jdk" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yq" type="462c0819:PsiDirectoryNode" />
+              <item name="yq-jdk" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -167,7 +200,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.14961961" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
@@ -184,7 +217,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Substring">
+    <configuration name="Substring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Substring" />
+      <module name="yqalgorithm" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TwoNoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -194,8 +234,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.TwoNoSum" />
+      <item itemvalue="Application.Substring" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Substring" />
         <item itemvalue="Application.TwoNoSum" />
       </list>
     </recent_temporary>
@@ -210,12 +255,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604285168596</updated>
-      <workItem from="1604285172318" duration="9846000" />
+      <workItem from="1604285172318" duration="16197000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9846000" />
+    <option name="totallyTimeSpent" value="16197000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -227,7 +272,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" />
@@ -245,8 +290,8 @@
       <window_info anchor="bottom" id="Messages" weight="0.3295082" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3590164" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.40491804" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3590164" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.40163934" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3295082" />
@@ -270,21 +315,27 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/yq-algorithm/src/main/java/TwoNoSum.java</url>
-          <line>43</line>
+          <line>38</line>
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/yq-algorithm/src/main/java/TwoNoSum.java</url>
-          <line>88</line>
+          <line>83</line>
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/yq-algorithm/src/main/java/TwoNoSum.java</url>
-          <line>71</line>
+          <line>66</line>
           <properties />
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/yq-algorithm/src/main/java/Substring.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -357,8 +408,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/yq-algorithm/src/main/java/TwoNoSum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+        <state>
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yq-jdk/src/main/java/yq/jdk9/java/lang/JDK9.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yq-algorithm/src/main/java/Substring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -418,11 +485,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>yqalgorithm</last-edited>
+          <last-edited>yqjdk</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
