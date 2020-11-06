@@ -7,19 +7,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="yqjdk" />
-        <module name="yqjvm" />
-        <module name="yqtomcat" />
-        <module name="yqes" />
-        <module name="yqconcurrency" />
-        <module name="yqagaent" />
-        <module name="yqspring" />
-        <module name="yqzookeeper" />
-        <module name="yqzgc" />
-        <module name="yqalgorithm" />
         <module name="yqkafka" />
+        <module name="yqagaent" />
+        <module name="yqalgorithm" />
+        <module name="yqjvm" />
+        <module name="yqzookeeper" />
+        <module name="yqdatastructure" />
+        <module name="yqjdk" />
+        <module name="yqspring" />
+        <module name="yqes" />
+        <module name="yqzgc" />
+        <module name="yqconcurrency" />
         <module name="yqdesignpattern" />
         <module name="yqthread" />
+        <module name="yqtomcat" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8" />
