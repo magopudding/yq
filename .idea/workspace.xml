@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a03bac5-b787-4e8d-a77c-609542f2a0d8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/yq-algorithm/src/main/java/IntegerReverse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yq-algorithm/src/main/java/MedianOfTwoSortedArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yq-datastructure/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yq-spring/src/main/java/yq/org/spring/bean/BeanFactoryTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yq-spring/src/main/java/yq/org/spring/bean/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yq-spring/src/main/java/yq/org/spring/bean/Start.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yq-algorithm/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yq-algorithm/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yq-algorithm/target/classes/Substring.class" beforeDir="false" afterPath="$PROJECT_DIR$/yq-algorithm/target/classes/Substring.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yq-spring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yq-spring/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yq-algorithm/src/main/java/IntegerReverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/yq-algorithm/src/main/java/IntegerReverse.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -43,19 +33,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.5.RELEASE/spring-beans-5.2.5.RELEASE.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4026">
-              <caret line="261" column="28" selection-start-line="261" selection-start-column="28" selection-end-line="261" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/yq-algorithm/src/main/java/MedianOfTwoSortedArrays.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+            <state relative-caret-position="330">
+              <caret line="21" column="31" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -63,8 +44,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/yq-algorithm/src/main/java/IntegerReverse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+            <state relative-caret-position="199">
+              <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_212/src.zip!/java/util/Stack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="193">
+              <caret line="52" column="11" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -211,7 +201,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MedianOfTwoSortedArrays">
+  <component name="RunManager" selected="Application.IntegerReverse">
+    <configuration name="IntegerReverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IntegerReverse" />
+      <module name="yqalgorithm" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MedianOfTwoSortedArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MedianOfTwoSortedArrays" />
       <module name="yqalgorithm" />
@@ -253,9 +250,11 @@
       <item itemvalue="Application.Substring" />
       <item itemvalue="Application.MedianOfTwoSortedArrays" />
       <item itemvalue="Spring Boot.Start" />
+      <item itemvalue="Application.IntegerReverse" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IntegerReverse" />
         <item itemvalue="Application.MedianOfTwoSortedArrays" />
         <item itemvalue="Spring Boot.Start" />
         <item itemvalue="Application.Substring" />
@@ -274,12 +273,12 @@
       <option name="presentableId" value="Default" />
       <updated>1604285168596</updated>
       <workItem from="1604285172318" duration="33950000" />
-      <workItem from="1604542301603" duration="3401000" />
+      <workItem from="1604542301603" duration="9012000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37351000" />
+    <option name="totallyTimeSpent" value="42962000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -303,7 +302,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33934426" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30163935" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.30983606" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -316,7 +315,7 @@
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.3295082" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Maven" order="3" weight="0.32980332" />
       <window_info anchor="right" id="Palette" order="4" />
@@ -383,6 +382,10 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/yq-thread/pom.xml">
@@ -570,13 +573,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.5.RELEASE/spring-beans-5.2.5.RELEASE.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4026">
-          <caret line="261" column="28" selection-start-line="261" selection-start-column="28" selection-end-line="261" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1364">
@@ -639,17 +635,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.5.RELEASE/spring-beans-5.2.5.RELEASE.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="261" column="28" selection-start-line="261" selection-start-column="28" selection-end-line="261" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/yq-algorithm/src/main/java/MedianOfTwoSortedArrays.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+        <state relative-caret-position="330">
+          <caret line="21" column="31" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_212/src.zip!/java/util/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="52" column="11" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yq-algorithm/src/main/java/IntegerReverse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        <state relative-caret-position="199">
+          <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
         </state>
       </provider>
     </entry>
