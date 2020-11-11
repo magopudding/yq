@@ -2,74 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a03bac5-b787-4e8d-a77c-609542f2a0d8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/yq-algorithm/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yq-algorithm/src/main/java/Substring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yq-concurrency/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yq-designpattern/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yq-es/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yq-jdk/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yq-jdk/src/main/java/yq/jdk9/java/lang/JDK9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yq-jvm/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yq-kafka/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yq-spring/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yq-thread/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yq-tomcat/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yq-zgc/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yq-zookeeper/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yq-mybatis/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yq-mybatis/src/main/java/yq/mybatis/ExamplePlugs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yq-mybatis/src/main/java/yq/mybatis/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yq-mybatis/src/main/java/yq/mybatis/TestMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yq-mybatis/src/main/resources/StudentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yq-mybatis/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yq-algorithm/src/main/java/TwoNoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/yq-algorithm/src/main/java/TwoNoSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yq-kafka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yq-kafka/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yq-spring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yq-spring/pom.xml" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/yq-thread/target/" />
-    <ignored path="$PROJECT_DIR$/yq-jvm/target/" />
-    <ignored path="$PROJECT_DIR$/yq-algorithm/target/" />
-    <ignored path="$PROJECT_DIR$/yq-agaent/target/" />
-    <ignored path="$PROJECT_DIR$/yq-spring/target/" />
-    <ignored path="$PROJECT_DIR$/yq-zookeeper/target/" />
-    <ignored path="$PROJECT_DIR$/yq-kafka/target/" />
-    <ignored path="$PROJECT_DIR$/yq-jdk/target/" />
-    <ignored path="$PROJECT_DIR$/yq-es/target/" />
-    <ignored path="$PROJECT_DIR$/yq-tomcat/target/" />
-    <ignored path="$PROJECT_DIR$/yq-zgc/target/" />
-    <ignored path="$PROJECT_DIR$/yq-concurrency/target/" />
-    <ignored path="$PROJECT_DIR$/yq-designpattern/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="testRunner" value="GRADLE" />
     <option name="delegatedBuild" value="true" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yq-algorithm/src/main/java/TwoNoSum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/yq-algorithm/src/main/java/Substring.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -81,18 +48,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/yq-algorithm/src/main/java/TwoNumberSum.java" />
-        <option value="$PROJECT_DIR$/yq-algorithm/src/main/java/TwoNoSum.java" />
-        <option value="$PROJECT_DIR$/yq-jdk/src/main/java/yq/jdk9/java/lang/jdk9.java" />
-        <option value="$PROJECT_DIR$/yq-jdk/src/main/java/yq/jdk9/java/lang/JDK9.java" />
-        <option value="$PROJECT_DIR$/yq-algorithm/src/main/java/Substring.java" />
-      </list>
-    </option>
-  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -100,98 +55,19 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="yq" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="yq" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
-  </component>
+  <component name="ProjectId" id="1jmgvipM3n8bQDbDx6sykeKHZu5" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="yq" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yq" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yq" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yq" type="462c0819:PsiDirectoryNode" />
-              <item name="yq-algorithm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yq" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yq" type="462c0819:PsiDirectoryNode" />
-              <item name="yq-algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yq" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yq" type="462c0819:PsiDirectoryNode" />
-              <item name="yq-algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yq" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yq" type="462c0819:PsiDirectoryNode" />
-              <item name="yq-algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yq" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yq" type="462c0819:PsiDirectoryNode" />
-              <item name="yq-jdk" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yq" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yq" type="462c0819:PsiDirectoryNode" />
-              <item name="yq-jdk" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yq" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yq" type="462c0819:PsiDirectoryNode" />
-              <item name="yq-jdk" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/yq-mybatis/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -205,22 +81,28 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\yq\yq-mybatis\src\main\resources" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Substring">
+  <component name="RunManager" selected="Application.TestMain">
     <configuration name="Substring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Substring" />
       <module name="yqalgorithm" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="yq.mybatis.TestMain" />
+      <module name="yq-mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="yq.mybatis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -237,9 +119,11 @@
     <list>
       <item itemvalue="Application.TwoNoSum" />
       <item itemvalue="Application.Substring" />
+      <item itemvalue="Application.TestMain" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestMain" />
         <item itemvalue="Application.Substring" />
         <item itemvalue="Application.TwoNoSum" />
       </list>
@@ -256,11 +140,15 @@
       <option name="presentableId" value="Default" />
       <updated>1604285168596</updated>
       <workItem from="1604285172318" duration="16197000" />
+      <workItem from="1604414916126" duration="1394000" />
+      <workItem from="1604934367210" duration="599000" />
+      <workItem from="1605016859492" duration="2557000" />
+      <workItem from="1605019428307" duration="212000" />
+      <workItem from="1605019646302" duration="271000" />
+      <workItem from="1605019925926" duration="41000" />
+      <workItem from="1605019971305" duration="3819000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16197000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -271,44 +159,82 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" weight="0.3295082" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" weight="0.3295082" />
-      <window_info anchor="bottom" id="Messages" weight="0.3295082" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3590164" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.40163934" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3295082" />
-      <window_info anchor="right" id="Maven" weight="0.32980332" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="SciView" weight="0.32980332" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="233" y="0" key="#Project_Structure" timestamp="1605018768285">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="0" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1605018768285" />
+    <state x="446" y="51" key="#com.intellij.ide.util.MemberChooser" timestamp="1605021816899">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="446" y="51" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1605021816899" />
+    <state x="263" y="19" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1605017092148">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="263" y="19" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1280.680@0.0.1280.680" timestamp="1605017092148" />
+    <state x="488" y="230" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1604414942577">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="488" y="230" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1280.680@0.0.1280.680" timestamp="1604414942577" />
+    <state width="454" height="466" key="DebuggerActiveHint" timestamp="1605018697156">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="454" height="466" key="DebuggerActiveHint/0.0.1280.680@0.0.1280.680" timestamp="1605018697156" />
+    <state width="1237" height="233" key="GridCell.Tab.0.bottom" timestamp="1605022631698">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="233" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1605022631698" />
+    <state width="1237" height="233" key="GridCell.Tab.0.center" timestamp="1605022631698">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="233" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1605022631698" />
+    <state width="1237" height="233" key="GridCell.Tab.0.left" timestamp="1605022631698">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="233" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1605022631698" />
+    <state width="1237" height="233" key="GridCell.Tab.0.right" timestamp="1605022631698">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="233" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1605022631698" />
+    <state width="1237" height="205" key="GridCell.Tab.1.bottom" timestamp="1605019420064">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="205" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1605019420064" />
+    <state width="1237" height="205" key="GridCell.Tab.1.center" timestamp="1605019420063">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="205" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1605019420063" />
+    <state width="1237" height="205" key="GridCell.Tab.1.left" timestamp="1605019420063">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="205" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1605019420063" />
+    <state width="1237" height="205" key="GridCell.Tab.1.right" timestamp="1605019420063">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="205" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1605019420063" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1605020012516">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1605020012516" />
+    <state x="325" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1604936985745">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="325" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1604936985745" />
+    <state x="321" y="73" width="638" height="534" key="find.popup" timestamp="1605020448110">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="321" y="73" width="638" height="534" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1605020448110" />
+    <state x="28" y="36" key="new project wizard" timestamp="1605017104718">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="28" y="36" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1605017104718" />
+    <state x="297" y="-6" width="670" height="676" key="search.everywhere.popup" timestamp="1605019301442">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="297" y="-6" width="670" height="676" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1605019301442" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -316,209 +242,24 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/yq-algorithm/src/main/java/TwoNoSum.java</url>
           <line>38</line>
-          <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/yq-algorithm/src/main/java/TwoNoSum.java</url>
           <line>83</line>
-          <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/yq-algorithm/src/main/java/TwoNoSum.java</url>
           <line>66</line>
-          <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/yq-algorithm/src/main/java/Substring.java</url>
           <line>17</line>
-          <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yq-algorithm/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yq-thread/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yq-jvm/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yq-agaent/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yq-spring/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yq-zookeeper/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yq-kafka/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yq-jdk/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yq-es/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yq-zgc/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yq-concurrency/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yq-algorithm/src/main/java/TwoNumberSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yq-designpattern/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yq-tomcat/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yq-algorithm/src/main/java/TwoNoSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yq-jdk/src/main/java/yq/jdk9/java/lang/JDK9.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yq-algorithm/src/main/java/Substring.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>java</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>Python 3.7</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>yqjdk</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ScopeChooserConfigurable.UI">
-        <settings>
-          <last-edited>Unnamed</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
