@@ -11,6 +11,13 @@
 
   <artifactId>yq-spring</artifactId>
 
+  <dependencies>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter</artifactId>
+      <version>2.2.6.RELEASE</version>
+    </dependency>
+  </dependencies>
 
   <dependencies>
     <dependency>
