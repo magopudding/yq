@@ -11,12 +11,18 @@ public class MedianOfTwoSortedArrays {
 
   public static void main(String[] args) {
     MedianOfTwoSortedArrays s = new MedianOfTwoSortedArrays();
-    int[] a = new int[]{1,2};
-    int[] b = new int[]{3,4};
-    System.out.println(141246 % 32);
-
+    int[] a = new int[]{3};
+    int[] b = new int[]{-2,-1};
     System.out.println(s.findMedianSortedArrays(a,b));
   }
+
+  /*
+   *
+   * @Description leetcode no4 寻找两个正序数组的中位数
+   * @Date  2020/11/12 17:06
+   * @Param [nums1, nums2]
+   * @return double
+   **/
   public double findMedianSortedArrays(int[] nums1, int[] nums2) {
     int length1 = nums1.length;
     int length2 = nums2.length;
@@ -28,48 +34,45 @@ public class MedianOfTwoSortedArrays {
 
     int i = 0;
     int j = 0;
-    int sumIJ = 1;
-    if(sumLen % 2 != 0){
-      sumIJ = 0;
+    int sumIJ = 0;
+    if(sumLen % 2 == 0){
+      sumIJ = 1;
     }
-    double center2 = -1d;
-    double center3 = -1d;
+
+    double center2 = Double.MAX_VALUE;
+    double center3 = Double.MAX_VALUE;
     while (true){
-      if(sumLen % 2 == 0 && center2 != -1 && center3 != -1){
-          break;
-      }
-      if(sumLen %2 != 0 && center2 != -1){
+      if(sumLen % 2 == 0 && center2 != Double.MAX_VALUE && center3 != Double.MAX_VALUE){
         break;
       }
-      double temp1 = 0;
-      double temp2 = 0;
+      if(sumLen %2 != 0 && center2 != Double.MAX_VALUE){
+        break;
+      }
+      double temp1 = Double.MAX_VALUE;
+      double temp2 = Double.MAX_VALUE;
       if(i < length1){
           temp1 = nums1[i];
       }
       if(j < length2){
           temp2 = nums2[j];
       }
-      if(((temp1 < temp2 && length1 != 0) || (j == length2 -1 && i < length1 -1)) || (length1 != 0 && length2 == 0)){
-        if(sumIJ == center1){
-          center2 = temp1;
-        }
-        if(sumIJ == center1+1){
-          center3 = temp1;
-        }
-        if(i < length1 -1){
+      if((temp1 <= temp2 && i < length1) || (i< length1 && j >= length2)){
+          if(sumIJ == center1){
+            center2 = temp1;
+          }
+          if(sumIJ == center1 + 1){
+            center3 = temp1;
+          }
           ++i;
-        }else {
-          ++j;
-        }
-        ++sumIJ;
-      }else{
+          ++sumIJ;
+      }else {
         if(sumIJ == center1){
           center2 = temp2;
         }
-        if(sumIJ == center1 +1){
+        if(sumIJ == center1 + 1){
           center3 = temp2;
         }
-        if(j < length2){
+        if(j <= length2 -1){
           ++j;
           ++sumIJ;
         }
