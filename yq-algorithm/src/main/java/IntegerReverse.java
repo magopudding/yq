@@ -13,11 +13,17 @@ public class IntegerReverse {
     IntegerReverse s = new IntegerReverse();
     System.out.println(s.reverse(1534236469));
   }
+
+    /**
+     * leetcode no7 整数反转
+     * @param x
+     * @return
+     */
   public int reverse(int x) {
       if(x == 0){
         return x;
       }
-      StringBuffer sb = new StringBuffer();
+      Integer ans = 0;
       boolean flag = false;
       if(x < 0){
         x = x * -1;
@@ -25,13 +31,14 @@ public class IntegerReverse {
       }
       while (x != 0){
         int gw = x%10;
-        sb.append(gw);
+        if (ans > Integer.MAX_VALUE/10 || (ans == Integer.MAX_VALUE / 10 && gw > 7)) return 0;
+        if (ans < Integer.MIN_VALUE/10 || (ans == Integer.MIN_VALUE / 10 && gw < -8)) return 0;
+        ans = ans * 10 + gw;
         x = x /10;
       }
-      int res = Integer.parseInt(sb.toString());
       if(flag){
-        res = res * -1;
+          ans = ans * -1;
       }
-      return res;
+      return ans;
   }
 }

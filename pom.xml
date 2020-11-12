@@ -22,7 +22,7 @@
     <module>yq-zgc</module>
     <module>yq-concurrency</module>
     <module>yq-designpattern</module>
-    <module>yq-datastructure</module>
+    <module>yq-mybatis</module>
   </modules>
 
   <dependencies>
@@ -46,31 +46,8 @@
           <artifactId>maven-compiler-plugin</artifactId>
           <version>3.8.0</version>
           <configuration>
-            <source>14</source>
-            <target>14</target>
-          </configuration>
-        </plugin>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-javadoc-plugin</artifactId>
-          <version>2.7</version>
-        </plugin>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-site-plugin</artifactId>
-          <version>3.3</version>
-          <configuration>
-            <locales>zh_CN</locales>
-            <reportPlugins>
-              <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-checkstyle-plugin</artifactId>
-              </plugin>
-              <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-pmd-plugin</artifactId>
-              </plugin>
-            </reportPlugins>
+            <source>8</source>
+            <target>8</target>
           </configuration>
         </plugin>
       </plugins>

@@ -21,12 +21,17 @@ public class MedianOfTwoSortedArrays {
     int length1 = nums1.length;
     int length2 = nums2.length;
     int sumLen = length1 + length2;
-
+    if(length1 == 0 && length2 == 0){
+      return 0;
+    }
     int center1 = sumLen / 2;
 
     int i = 0;
     int j = 0;
-    int sumIJ = 0;
+    int sumIJ = 1;
+    if(sumLen % 2 != 0){
+      sumIJ = 0;
+    }
     double center2 = -1d;
     double center3 = -1d;
     while (true){
@@ -44,25 +49,24 @@ public class MedianOfTwoSortedArrays {
       if(j < length2){
           temp2 = nums2[j];
       }
-      if((temp1 < temp2) || (j == length2 -1 && i < length1 -1)){
-        if(sumIJ == center1 -1){
+      if(((temp1 < temp2 && length1 != 0) || (j == length2 -1 && i < length1 -1)) || (length1 != 0 && length2 == 0)){
+        if(sumIJ == center1){
           center2 = temp1;
         }
-        if(sumIJ == center1){
+        if(sumIJ == center1+1){
           center3 = temp1;
         }
         if(i < length1 -1){
           ++i;
-          ++sumIJ;
         }else {
           ++j;
-          ++sumIJ;
         }
-      }else {
-        if(sumIJ == center1 -1){
+        ++sumIJ;
+      }else{
+        if(sumIJ == center1){
           center2 = temp2;
         }
-        if(sumIJ == center1){
+        if(sumIJ == center1 +1){
           center3 = temp2;
         }
         if(j < length2){
