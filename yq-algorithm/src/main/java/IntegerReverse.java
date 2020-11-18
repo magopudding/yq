@@ -24,20 +24,12 @@ public class IntegerReverse {
         return x;
       }
       Integer ans = 0;
-      boolean flag = false;
-      if(x < 0){
-        x = x * -1;
-        flag = true;
-      }
       while (x != 0){
         int gw = x%10;
         if (ans > Integer.MAX_VALUE/10 || (ans == Integer.MAX_VALUE / 10 && gw > 7)) return 0;
         if (ans < Integer.MIN_VALUE/10 || (ans == Integer.MIN_VALUE / 10 && gw < -8)) return 0;
         ans = ans * 10 + gw;
         x = x /10;
-      }
-      if(flag){
-          ans = ans * -1;
       }
       return ans;
   }

@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="yq.mybatis.Student">
-    <select id="selectAllName" resultType="string">
+    <select id="selectAllName" resultType="string" flushCache="true" useCache="true" statementType="PREPARED">
         SELECT name FROM student
     </select>
+    参数的配置好像越来越繁琐了，但实际上，很少需要如此繁琐的配置。
 
+    对于数值类型，还可以设置 numericScale 指定小数点后保留的位数。
+
+    #{height,javaType=double,jdbcType=NUMERIC,numericScale=2}
 </mapper>
