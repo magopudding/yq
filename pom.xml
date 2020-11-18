@@ -22,6 +22,7 @@
     <module>yq-zgc</module>
     <module>yq-concurrency</module>
     <module>yq-designpattern</module>
+    <module>yq-datastructure</module>
     <module>yq-mybatis</module>
   </modules>
 

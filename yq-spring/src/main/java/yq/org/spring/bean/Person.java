@@ -17,15 +17,10 @@ import org.springframework.stereotype.Service;
  * @Version 1.0
  **/
 @Data
-public class Person implements InitializingBean {
+public class Person {
 
   private String name;
 
   private int age;
 
-
-  public void afterPropertiesSet() throws Exception {
-      this.age = 11;
-      this.name = "adw";
-  }
 }
