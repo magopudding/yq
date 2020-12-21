@@ -1,4 +1,3 @@
-import java.util.concurrent.locks.LockSupport;
 
 /**
  * @ClassName: VolitaleTest
@@ -9,7 +8,7 @@ import java.util.concurrent.locks.LockSupport;
  **/
 public class VolitaleTest {
 
-  public static volatile Integer i = 1;
+  public static Integer i = 1;
 
   public void t1(){
     new Thread(() -> {
