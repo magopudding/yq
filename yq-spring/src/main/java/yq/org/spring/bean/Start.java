@@ -20,10 +20,9 @@ public class Start {
 
   public static void main(String[] args) {
     SpringApplication.run(Start.class,args);
-//    AnnotationConfigApplicationContext s = new AnnotationConfigApplicationContext(BeanFactoryTests.class);
-//    System.out.println(s.getBean("beanFactoryTests"));
-//    System.out.println(s.getBean(Person.class));
-
-    ReentrantLock
+    AnnotationConfigApplicationContext s = new AnnotationConfigApplicationContext(BeanFactoryTests.class);
+    Object beanFactoryTests = s.getBean("&beanFactoryTests");
+    System.out.println(s.getBean("beanFactoryTests"));
+    System.out.println(s.getBean(Person.class));
   }
 }

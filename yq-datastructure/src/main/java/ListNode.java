@@ -1,4 +1,3 @@
-import lombok.Data;
 
 /**
  * @ClassName: MyLinkedList
