@@ -1,6 +1,7 @@
 package yq.org.spring.bean;
 
 import com.alibaba.fastjson.JSONObject;
+import java.util.concurrent.locks.ReentrantLock;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
@@ -19,8 +20,10 @@ public class Start {
 
   public static void main(String[] args) {
     SpringApplication.run(Start.class,args);
-    AnnotationConfigApplicationContext s = new AnnotationConfigApplicationContext(BeanFactoryTests.class);
-    System.out.println(s.getBean("beanFactoryTests"));
-    System.out.println(s.getBean(Person.class));
+//    AnnotationConfigApplicationContext s = new AnnotationConfigApplicationContext(BeanFactoryTests.class);
+//    System.out.println(s.getBean("beanFactoryTests"));
+//    System.out.println(s.getBean(Person.class));
+
+    ReentrantLock
   }
 }
