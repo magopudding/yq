@@ -50,7 +50,7 @@ public class FastSort {
     }
     public static void main(String[] args) {
         FastSort s = new FastSort();
-        int[] arr = {8,7,6,10,11,12,3,4};
+        int[] arr = {2,6,1,2,0,5,3,4};
         s.fastSort(arr,0,arr.length-1);
         System.out.println(JSONObject.toJSONString(arr));
     }

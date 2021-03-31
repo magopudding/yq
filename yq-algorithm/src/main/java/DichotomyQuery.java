@@ -60,8 +60,32 @@ public class DichotomyQuery {
 
     public static void main(String[] args) {
         DichotomyQuery a = new DichotomyQuery();
-        int[] arr = {5,7,7,8,8};
+        int[] arr = {5,6,7,8,9};
+        System.out.println(binSer(arr,8));
+//        System.out.println(a.search(arr,8));
+    }
 
-        System.out.println(a.search(arr,8));
+    public static int binSer(int[] arr, int target){
+        if(arr.length == 0 || arr.length == 1){
+            return arr.length;
+        }
+        int left = 0;
+
+        int right = arr.length - 1;
+
+        while (left <= right){
+            int center = left + right;
+
+            if(arr[center] < target){
+                left = center +1;
+            }
+            if(arr[center] > target){
+                right = center -1;
+            }
+            if(arr[center] == target){
+                return center;
+            }
+        }
+        return 0;
     }
 }

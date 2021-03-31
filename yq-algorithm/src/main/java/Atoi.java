@@ -1,4 +1,5 @@
-import com.alibaba.fastjson.JSONObject;
+import java.util.HashMap;
+import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * @ClassName: Atoi
@@ -56,9 +57,21 @@ public class Atoi {
     return res;
   }
 
+  //1100110  0011001
   public static void main(String[] args) {
-    Atoi a = new Atoi();
-    System.out.println(a.myAtoi("2147483648"));
-    System.out.println(Integer.MIN_VALUE);
+//      String str = "1100110";
+//      int length = str.length();
+//      char[] chars = str.toCharArray();
+//      String str1 = "";
+//
+//      for (int i=0;i<length;i++) {
+//        char c = (char) (chars[i] ^ 1);
+//        str1 = str1+c;
+//      }
+//      System.out.println(str);
+//      System.out.println(str1);
   }
+
+
+
 }
