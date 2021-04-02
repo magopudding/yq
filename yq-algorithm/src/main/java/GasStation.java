@@ -16,7 +16,7 @@ public class GasStation {
   /*
    *
    * @Author kongxiangyun
-   * @Description leetcode no134 加油站
+   * @Description leetcode no 134 加油站
    * @Date  2020/11/18 16:08
    * @Param [gas, cost]
    * @return int
