@@ -1,6 +1,5 @@
 package linkedlist;
 
-import java.util.LinkedList;
 
 /**
  * @ClassName: NodeTest
@@ -75,14 +74,9 @@ public class NodeTest {
     }
     Node k = head;
     Node m = head;
-    while (k!= null){
-      if(k.getNext() != null){
-        m = m.getNext();
-      }
-      k = k.getNext();
-      if(k != null){
-        k = k.getNext();
-      }
+    while (k!= null && k.getNext() != null){
+      m = m.getNext();
+      k = k.getNext().getNext();
     }
     return m;
   }
