@@ -12,6 +12,7 @@ import java.util.Map;
  **/
 public class asd {
 
+  public volatile  String s = "awd";
   public static void main(String[] args) {
     Map<Integer, java.lang.String> h = new HashMap<>(16);
     for(int i = 1;i<=3000;i = i+16){
@@ -19,4 +20,5 @@ public class asd {
     }
     System.out.println(h.size());
   }
+
 }

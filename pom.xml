@@ -24,6 +24,9 @@
     <module>yq-designpattern</module>
     <module>yq-datastructure</module>
     <module>yq-mybatis</module>
+    <module>agreement</module>
+    <module>netty</module>
+    <module>yq-netty</module>
   </modules>
 
   <dependencies>
